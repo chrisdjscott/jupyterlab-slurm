@@ -61,6 +61,13 @@ jobs:
 
         jupyter labextension list 2>&1 | grep -ie "jupyterlab-slurm.*enabled"
         #python -m jupyterlab.browser_check
+        
+        cp dist/*.tar.gz jupyterlab-slurm.tar.gz
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: jupyterlab-slurm-sdist
+        path: jupyterlab-slurm.tar.gz
 
     - name: Release
       uses: softprops/action-gh-release@v1
