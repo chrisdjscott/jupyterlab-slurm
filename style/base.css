@@ -47,11 +47,11 @@
 }
 
 .jp-SlurmWidget-NerscLaunchIcon {
-  background-image: url("nersc_icon.png");
+  background-image: url("https://theme.zdassets.com/theme_assets/85418/cca0f59420e8fffa5e2ba883243c453ce5747d94.svg");
 }
 
 .jp-SlurmWidget-NerscTabIcon {
-  background-image: url("nersc_icon_small.png");
+  background-image: url("https://theme.zdassets.com/theme_assets/85418/cca0f59420e8fffa5e2ba883243c453ce5747d94.svg");
 }
 
 .jp-SlurmWidget-table-button-badge {
